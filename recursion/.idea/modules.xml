@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../2D_arrays/.idea/2D_arrays.iml" filepath="$PROJECT_DIR$/../2D_arrays/.idea/2D_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SAP_lab/.idea/SAP_lab.iml" filepath="$PROJECT_DIR$/../SAP_lab/.idea/SAP_lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../arrays/.idea/arrays.iml" filepath="$PROJECT_DIR$/../arrays/.idea/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../binary_searching/.idea/binary_searching.iml" filepath="$PROJECT_DIR$/../binary_searching/.idea/binary_searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bit_manipulation/.idea/bit_manipulation.iml" filepath="$PROJECT_DIR$/../bit_manipulation/.idea/bit_manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../design_patterns/.idea/design_patterns.iml" filepath="$PROJECT_DIR$/../design_patterns/.idea/design_patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dictonary_and_maps/.idea/dictonary_and_maps.iml" filepath="$PROJECT_DIR$/../dictonary_and_maps/.idea/dictonary_and_maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dp/.idea/dp.iml" filepath="$PROJECT_DIR$/../dp/.idea/dp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../file_!O/.idea/file_!O.iml" filepath="$PROJECT_DIR$/../file_!O/.idea/file_!O.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../graphs/.idea/graphs.iml" filepath="$PROJECT_DIR$/../graphs/.idea/graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../heap/.idea/heap.iml" filepath="$PROJECT_DIR$/../heap/.idea/heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hoffman_coding/.idea/hoffman_coding.iml" filepath="$PROJECT_DIR$/../hoffman_coding/.idea/hoffman_coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../linkedlist/.idea/linkedlist.iml" filepath="$PROJECT_DIR$/../linkedlist/.idea/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../loops/.idea/loops.iml" filepath="$PROJECT_DIR$/../loops/.idea/loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../new_syntax/.idea/new_syntax.iml" filepath="$PROJECT_DIR$/../new_syntax/.idea/new_syntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../number_theory/.idea/number_theory.iml" filepath="$PROJECT_DIR$/../number_theory/.idea/number_theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oops_concept/.idea/oops_concept.iml" filepath="$PROJECT_DIR$/../oops_concept/.idea/oops_concept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../patterns/.idea/patterns.iml" filepath="$PROJECT_DIR$/../patterns/.idea/patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/recursion.iml" filepath="$PROJECT_DIR$/.idea/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rough_only/.idea/rough_only.iml" filepath="$PROJECT_DIR$/../rough_only/.idea/rough_only.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stack/.idea/stack.iml" filepath="$PROJECT_DIR$/../stack/.idea/stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../strings/.idea/strings.iml" filepath="$PROJECT_DIR$/../strings/.idea/strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trees/.idea/trees.iml" filepath="$PROJECT_DIR$/../trees/.idea/trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tries/.idea/tries.iml" filepath="$PROJECT_DIR$/../tries/.idea/tries.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,106 @@
+# # Python program to print next greater element using stack
+#
+# # Stack Functions to be used by printNGE()
+#
+#
+# def createStack():
+# 	stack = []
+# 	return stack
+#
+#
+# def isEmpty(stack):
+# 	return len(stack) == 0
+#
+#
+# def push(stack, x):
+# 	stack.append(x)
+#
+#
+# def pop(stack):
+# 	if isEmpty(stack):
+# 		print("Error : stack underflow")
+# 	else:
+# 		return stack.pop()
+#
+#
+# '''prints element and NGE pair for all elements of
+# arr[] '''
+#
+#
+# def printNGE(arr):
+# 	s = createStack()
+# 	element = 0
+# 	next = 0
+#
+# 	# push the first element to stack
+# 	push(s, arr[0])
+#
+# 	# iterate for rest of the elements
+# 	for i in range(1, len(arr), 1):
+# 		next = arr[i]
+#
+# 		if isEmpty(s) == False:
+#
+# 			# if stack is not empty, then pop an element from stack
+# 			element = pop(s)
+#
+# 			'''If the popped element is smaller than next, then
+# 				a) print the pair
+# 				b) keep popping while elements are smaller and
+# 				stack is not empty '''
+# 			while element < next:
+# 				print(str(next))
+# 				if isEmpty(s) == True:
+# 					break
+# 				element = pop(s)
+#
+# 			'''If element is greater than next, then push
+# 			the element back '''
+# 			if element > next:
+# 				push(s, element)
+#
+# 		'''push next to stack so that we can find
+# 		next greater for it '''
+# 		push(s, next)
+#
+# 	'''After iterating over the loop, the remaining
+# 	elements in stack do not have the next greater
+# 	element, so print -1 for them '''
+#
+# 	while isEmpty(s) == False:
+# 		element = pop(s)
+# 		next = -1
+# 		print(str(next))
+#
+#
+# # Driver code
+# arr = [11, 13, 21, 3]
+# printNGE(arr)
+#
+
+# stack[-1] in python gives the topmost element of the stack
+
+def NGF(arr):
+	stack = []
+	lis = []
+	n = len(arr)
+	for i in range(n):
+		if len(stack) == 0:
+			lis.append(-1)
+		elif len(stack) > 0 and stack[-1] > arr[i]:
+			lis.append(stack[-1])
+		elif len(stack) > 0 and stack[-1] <= arr[i]:
+			while len(stack) > 0 and stack[-1] <= arr[i]:
+				stack.pop()
+			if len(stack) == 0:
+				lis.append(-1)
+			else:
+				lis.append(stack[-1])
+		stack.append(arr[i])
+
+	return lis
+
+
+arr = [1, 3, 2, 4]
+print(NGF(arr))
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="stack" />
+    <orderEntry type="module" module-name="oops_concept" />
+    <orderEntry type="module" module-name="dictonary_and_maps" />
+    <orderEntry type="module" module-name="dp" />
+    <orderEntry type="module" module-name="loops" />
+    <orderEntry type="module" module-name="linkedlist" />
+    <orderEntry type="module" module-name="trees" />
+    <orderEntry type="module" module-name="rough_only" />
+    <orderEntry type="module" module-name="design_patterns" />
+    <orderEntry type="module" module-name="2D_arrays" />
+    <orderEntry type="module" module-name="patterns" />
+    <orderEntry type="module" module-name="graphs" />
+    <orderEntry type="module" module-name="heap" />
+    <orderEntry type="module" module-name="bit_manipulation" />
+    <orderEntry type="module" module-name="number_theory" />
+    <orderEntry type="module" module-name="new_syntax" />
+    <orderEntry type="module" module-name="arrays" />
+    <orderEntry type="module" module-name="tries" />
+    <orderEntry type="module" module-name="file_!O" />
+    <orderEntry type="module" module-name="strings" />
+    <orderEntry type="module" module-name="binary_searching" />
+    <orderEntry type="module" module-name="SAP_lab" />
+    <orderEntry type="module" module-name="hoffman_coding" />
+  </component>
+</module>
